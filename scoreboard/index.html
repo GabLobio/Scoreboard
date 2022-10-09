@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+</head>
+<body>
+
+    <div class="container">
+        <div class="scores">
+            <div class="home">
+                <h2>HOME</h2>
+                <p id="home-score">0</p>
+                <div class="home-buttons">
+                    <button class="inc-btn" id="homeIncrement" onclick="incrementByOneHome()">+1</button>
+                    <button class="inc-btn" id="homeIncrement" onclick="incrementByTwoHome()">+2</button>
+                    <button class="inc-btn" id="homeIncrement" onclick="incrementByThreeHome()">+3</button>
+                </div>
+            </div>
+            <div class="guest">
+                <h2>GUEST</h1>
+                <p id="guest-score">0</p>
+                <div class="guest-buttons">
+                    <button class="inc-btn" id="guestIncrement" onclick="incrementByOneGuest()">+1</button>
+                    <button class="inc-btn" id="guestIncrement" onclick="incrementByTwoGuest()">+2</button>
+                    <button class="inc-btn" id="guestIncrement" onclick="incrementByThreeGuest()">+3</button>
+                </div>
+            </div>
+        </div>
+            <button class="reset-btn" onclick="reset()">Reset</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./main.js"></script>
+</body>
+</html>

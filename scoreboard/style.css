@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+    font-family: 'Digital Display';
+    src: url('Assets/Digital-Display.woff2') format('woff2'),
+        url('Assets/Digital-Display.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.container {
+    height: 400px;
+    width: 650px;
+    background-color: #1B244A;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.scores {
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    gap: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home, .guest {
+    margin-top: 30px;
+}
+
+p {
+    font-size: 90px;
+    color:white; 
+    background-color: black;
+    border-radius: 5px;
+    border: solid;
+    border-color: black;
+    
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+
+    text-align: center;
+    color: #F94F6D;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.inc-btn {
+width: 45px;
+height: 45px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+
+font-family: 'Cursed Timer ULiL', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+
+text-align: center;
+
+color: #9AABD8;
+background-color: transparent;
+}
+
+.home-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.guest-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.reset-btn {
+    margin: 10px; 
+    position:absolute;
+    width: 65px;
+
+    text-align: center;
+
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: none;
+
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
